@@ -1,2 +1,2 @@
 prepare:
-	pip install Django thulac
+	pip3 install -r ./requirements.txt
