@@ -1,2 +1,2 @@
 prepare:
-	pip install Django
+	pip install Django thulac
