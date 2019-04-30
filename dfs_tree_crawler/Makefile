@@ -8,7 +8,7 @@ treenode_list.txt:
 leaf_list.txt: treenode_list.txt
 	leaf_list_crawler.py
 
-crawled_leaf_list.txt:
+crawled_leaf_list.txt: leaf_list.txt
 	create_leaflist.py
 
 .PHONY: all
